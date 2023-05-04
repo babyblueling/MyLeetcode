@@ -1,11 +1,7 @@
-![image-20230503220530929](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20230503220530929.png)
+![image](https://user-images.githubusercontent.com/132556492/236167107-7bf3f0cc-8ad6-4f58-a65b-82b84e9f4957.png)
+![image](https://user-images.githubusercontent.com/132556492/236167147-89351694-5484-4b37-adbb-6672d0d11be8.png)
 
-![image-20230503220539847](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20230503220539847.png)
-
-
-
-
-
+自己写的：
 ```c++
 int kmp(string str1, string str2) {
     int i = 0, j = 0;
