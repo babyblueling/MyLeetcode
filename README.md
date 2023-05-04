@@ -109,6 +109,8 @@ public:
 ### [680.验证回文串II](https://leetcode.cn/problems/valid-palindrome-ii/)
 
 ### [686.重复叠加字符串匹配](https://leetcode.cn/problems/repeated-string-match/)
+> KMP算法进阶
+
 ## 剑指offer67题
 
 ### [04.二维数组中的查找](https://leetcode.cn/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/)
