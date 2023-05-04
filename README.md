@@ -198,7 +198,7 @@ public:
 
 > 在处理有可能溢出的问题时，**不要用abs()函数**
 
-![image-20230425212304411](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20230425212304411.png)
+![image](https://user-images.githubusercontent.com/132556492/236165090-64fa75cb-f36c-4ae0-9026-e0b3dbf4e309.png)
 
 ### [21.调整数组顺序使奇数位于偶数前面](https://leetcode.cn/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/)
 
