@@ -111,6 +111,8 @@ public:
 ### [686.重复叠加字符串匹配](https://leetcode.cn/problems/repeated-string-match/)
 > KMP算法进阶
 
+### [819.最常见的单词](https://leetcode.cn/problems/most-common-word/)
+
 ## 剑指offer67题
 
 ### [04.二维数组中的查找](https://leetcode.cn/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/)
