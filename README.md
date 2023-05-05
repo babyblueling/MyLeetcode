@@ -114,7 +114,7 @@ public:
 ### [819.最常见的单词](https://leetcode.cn/problems/most-common-word/)
 使用标准库的代码(力扣大神子不语)
 
-```
+```c++
 class Solution {
 public:
     string mostCommonWord(string paragraph, vector<string>& banned) {
