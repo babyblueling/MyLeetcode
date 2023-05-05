@@ -112,6 +112,27 @@ public:
 > KMP算法进阶
 
 ### [819.最常见的单词](https://leetcode.cn/problems/most-common-word/)
+使用标准库的代码(力扣大神子不语)
+
+```
+class Solution {
+public:
+    string mostCommonWord(string paragraph, vector<string>& banned) {
+        transform(paragraph.cbegin(), paragraph.cend(), paragraph.begin(), 
+            [](auto& i) { return isalpha(i) ? tolower(i) : ' '; });
+        stringstream ss(paragraph);
+        unordered_set ban(banned.cbegin(), banned.cend());
+        unordered_map<string, size_t> dict;
+
+        for (string tmp; ss >> tmp; ban.count(tmp) ? 0 : dict[tmp]++);
+        return max_element(dict.cbegin(), dict.cend(), [](auto& a, auto& b) {return a.second < b.second; })->first;
+    }
+};
+```
+
+### [859.亲密字符串](https://leetcode.cn/problems/buddy-strings/)
+
+### [6.N字形变换](https://leetcode.cn/problems/zigzag-conversion/)
 
 ## 剑指offer67题
 
