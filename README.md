@@ -75,6 +75,8 @@ while ( A 没完 || B 没完)
 
 ### [1497.检查数组对是否可以被k整除](https://leetcode.cn/problems/check-if-array-pairs-are-divisible-by-k/)
 
+### [18.四数之和](https://leetcode.cn/problems/4sum/description/)
+
 ## 2、字符串
 
 ### [13.罗马数字转整数](https://leetcode.cn/problems/roman-to-integer/)
