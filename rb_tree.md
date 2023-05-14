@@ -12,7 +12,7 @@
 
 Gnu2.9版本红黑树底层实现，模板类，有***5个模板参数***：
 
-![image-20230514103912257](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20230514103912257.png)
+![image](https://github.com/babyblueling/MyLeetcode/assets/132556492/d632cdf1-3dd4-4371-a7bd-be27c8dad295)
 
 第3个模板参数KeyOfValue表示怎样从Value中取出Key。
 
@@ -20,13 +20,13 @@ Gnu2.9版本红黑树底层实现，模板类，有***5个模板参数***：
 
 一个很好的**例子**：
 
-![image-20230514105832181](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20230514105832181.png)
+![image](https://github.com/babyblueling/MyLeetcode/assets/132556492/74ce5c0b-2e0b-4026-92a0-0730a38bd5a9)
 
 直接用rb_tree模板类，传入五个模板参数，实现一棵红黑树。对于其中的第三个参数`identity<int>`，只是在Gnu中独有，在VC中没有（旧版没有，新版不清楚）。identity继承自父类unary_function，但unary_function中没有任何函数和属性，继承它是为了**adaptable**。同理，less继承binary_function也是为了**adaptable**。
 
 在Gnu4.9版以后的容器_Rb_tree实现采用了**handle-and-body**的手法，为了XXX目标，会在类中有一个指针或东西（图中的`_Rb_tree_impl<...>`）来表示它的实现手法。其中的handle就是`_Rb_tree<...>`，body就是`_Rb_tree_impl<...>`。如下图：
 
-![image-20230514112451789](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20230514112451789.png)
+![image](https://github.com/babyblueling/MyLeetcode/assets/132556492/f447ce61-849f-4bde-9233-d237dc136b68)
 
 ---
 
