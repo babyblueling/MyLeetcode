@@ -140,6 +140,8 @@ public:
 
 ### [6.N字形变换](https://leetcode.cn/problems/zigzag-conversion/)
 
+### [541.反转字符串II](https://leetcode.cn/problems/reverse-string-ii/description/)
+
 ## 剑指offer67题
 
 ### [04.二维数组中的查找](https://leetcode.cn/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/)
