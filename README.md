@@ -140,7 +140,10 @@ public:
 
 ### [6.N字形变换](https://leetcode.cn/problems/zigzag-conversion/)
 
-### [541.反转字符串II](https://leetcode.cn/problems/reverse-string-ii/description/)
+### [541.反转字符串II](https://leetcode.cn/problems/reverse-string-ii/description/) 
+
+### [151.反转字符串中的单词](https://leetcode.cn/problems/reverse-words-in-a-string/description/)
+> 进阶：原地修改
 
 ## 剑指offer67题
 
