@@ -1,6 +1,8 @@
 ![image](https://user-images.githubusercontent.com/132556492/236167107-7bf3f0cc-8ad6-4f58-a65b-82b84e9f4957.png)
 ![image](https://user-images.githubusercontent.com/132556492/236167147-89351694-5484-4b37-adbb-6672d0d11be8.png)
 
+[力扣28题](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/description/)
+
 自己写的：
 ```c++
 int kmp(string str1, string str2) {
