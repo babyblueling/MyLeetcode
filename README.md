@@ -195,6 +195,8 @@ public:
 
 ### [09.用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)
 
+> 理解代码随想录中的解法
+
 ### [11.旋转数组的最小数字](https://leetcode.cn/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/)
 
 ### [10.斐波那契数列](https://leetcode.cn/problems/fei-bo-na-qi-shu-lie-lcof/)
