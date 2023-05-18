@@ -36,3 +36,34 @@ vector<int> getNextArray(string str) {
 }
 ```
 
+代码随想录中的kmp算法：
+```c++
+vector<int> getNext(string& s) {
+    vector<int> next(s.size());
+    next[0] = 0;
+    int j = 0;
+    for(int i = 1; i < s.size(); ++i) {
+        while(j > 0 && s[i] != s[j]) {
+            j = next[j-1];
+        }
+        if(s[i] == s[j]) ++j;
+        next[i] == j;
+    }
+    return next;
+}
+int kmp(string s1, string s2) {
+    if(s1.size() == 0) return 0;
+    vector<int> next = getNext(s2);
+    int j = 0;
+    for(int i = 0; i < s1.size(); ++i) {
+        while(j > 0 && s1[i] != s2[j]) {
+            j = next[j-1];
+        }
+        if(s1[i] == s2[j]) ++j;
+        if(j == s2.size()) return i - j + 1；
+    }
+    return -1;
+}
+```
+
+**左神对于前缀表的定义和代码随想录中不同，为代码随想录中整体往右移一位**
