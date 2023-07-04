@@ -67,3 +67,4 @@ int kmp(string s1, string s2) {
 ```
 
 **左神对于前缀表的定义和代码随想录中不同，为代码随想录中整体往右移一位**
+[这个视频](https://www.bilibili.com/video/BV1AY4y157yL/?spm_id_from=333.337.search-card.all.click&vd_source=e9b57106217eb0b65e4076cf4bcc7a73)前半段讲得可以
