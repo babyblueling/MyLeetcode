@@ -5,6 +5,7 @@
 - [1、数组](#1数组)
 - [2、字符串](#2字符串)
 - [剑指offer67题](#剑指offer67题)
+- [每日一题](#每日一题)
 
 ## 1、数组
 
@@ -263,3 +264,6 @@ public:
 
 > 递归、辅助栈
 
+## 每日一题
+
+### [2532.过桥的时间](https://leetcode.cn/problems/time-to-cross-a-bridge/solutions/)
