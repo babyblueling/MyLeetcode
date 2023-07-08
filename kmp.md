@@ -69,3 +69,22 @@ int kmp(string s1, string s2) {
 **左神对于前缀表的定义和代码随想录中不同，为代码随想录中整体往右移一位**
 
 [这个视频](https://www.bilibili.com/video/BV1AY4y157yL/?spm_id_from=333.337.search-card.all.click&vd_source=e9b57106217eb0b65e4076cf4bcc7a73)前半段讲得可以
+
+[leetcode.459](https://leetcode.cn/problems/repeated-substring-pattern/description/)若是用左神对于next数组的定义，不太好做
+
+---
+
+掌握代码随想录中使用前缀表构造next数组的写法：
+
+```c++
+void getNext(int* next, string& s) {
+    next[0] = 0;
+    int j = 0;
+    for(int i = 1; i < s.size(); ++i) {
+        while(j > 0 && s[i] != s[j]) j = next[j - 1];
+        if(s[i] == s[j]) ++j;
+        next[i] = j;
+    }
+    return ;
+}
+```
