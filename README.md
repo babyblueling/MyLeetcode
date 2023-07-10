@@ -267,3 +267,5 @@ public:
 ## 每日一题
 
 ### [2532.过桥的时间](https://leetcode.cn/problems/time-to-cross-a-bridge/solutions/)
+
+### [16.最接近的三数之和](https://leetcode.cn/problems/3sum-closest/description/) 灵神题解
