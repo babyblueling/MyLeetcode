@@ -271,3 +271,5 @@ public:
 ### [16.最接近的三数之和](https://leetcode.cn/problems/3sum-closest/description/) 灵神题解
 
 ### [1911.最大子序列交替和](https://leetcode.cn/problems/maximum-alternating-subsequence-sum/description/) -> [看这个题解](https://leetcode.cn/problems/maximum-alternating-subsequence-sum/solutions/2339030/python3javacgotypescript-yi-ti-yi-jie-do-22yp/)
+
+### [979.在二叉树中分配硬币](https://leetcode.cn/problems/distribute-coins-in-binary-tree/) 灵神题解
