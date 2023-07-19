@@ -274,9 +274,9 @@ public:
 
 ### [979.在二叉树中分配硬币](https://leetcode.cn/problems/distribute-coins-in-binary-tree/) 灵神题解
 
-### [874.模拟行走机器人](https://leetcode.cn/problems/walking-robot-simulation/description/)
-> 哈希
-
 ### [834.树中距离之和](https://leetcode.cn/problems/sum-of-distances-in-tree/description/) 灵神题解
 
 ### [1851.包含每个查询的最小区间](https://leetcode.cn/problems/minimum-interval-to-include-each-query/description/) [b站题解](https://www.bilibili.com/video/BV1Gq4y1L7cz/?spm_id_from=333.337.search-card.all.click&vd_source=e9b57106217eb0b65e4076cf4bcc7a73)
+
+### [874.模拟行走机器人](https://leetcode.cn/problems/walking-robot-simulation/description/)
+> 哈希
