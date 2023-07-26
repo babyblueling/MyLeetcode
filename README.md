@@ -280,3 +280,10 @@ public:
 
 ### [874.模拟行走机器人](https://leetcode.cn/problems/walking-robot-simulation/description/)
 > 哈希
+
+### [2569.更新数组后处理求和查询](https://leetcode.cn/problems/handling-sum-queries-after-update/description/) 灵神b站视频->[这里](https://www.bilibili.com/video/BV15D4y1G7ms/?spm_id_from=333.1007.top_right_bar_window_history.content.click&vd_source=e9b57106217eb0b65e4076cf4bcc7a73)
+
+- 将nums1构造成seg_tree，实现为数组，树中每个元素表示对应区间内1的个数
+- seg_tree索引从1开始
+- update函数的边界条件：当要更新的区间包含对应节点的区间时
+- 注意关于lazy的部分
