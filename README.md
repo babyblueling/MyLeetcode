@@ -287,3 +287,8 @@ public:
 - seg_tree索引从1开始
 - update函数的边界条件：当要更新的区间包含对应节点的区间时
 - 注意关于lazy的部分
+
+### [2050.并行课程III](https://leetcode.cn/problems/parallel-courses-iii/description/) 有向无环图
+
+- [拓扑排序解法](https://www.bilibili.com/video/BV1PP4y1j7ik/?spm_id_from=333.337.search-card.all.click&vd_source=e9b57106217eb0b65e4076cf4bcc7a73)
+- 含有dp的解法
