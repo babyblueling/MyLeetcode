@@ -292,3 +292,5 @@ public:
 
 - [拓扑排序解法](https://www.bilibili.com/video/BV1PP4y1j7ik/?spm_id_from=333.337.search-card.all.click&vd_source=e9b57106217eb0b65e4076cf4bcc7a73)
 - 含有dp的解法
+
+### [2681.英雄的力量](https://leetcode.cn/problems/power-of-heroes/description/)
