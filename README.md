@@ -294,3 +294,5 @@ public:
 - 含有dp的解法
 
 ### [2681.英雄的力量](https://leetcode.cn/problems/power-of-heroes/description/)
+
+### [1749.任意子数组和的绝对值的最大值](https://leetcode.cn/problems/maximum-absolute-sum-of-any-subarray/description/)
