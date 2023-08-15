@@ -301,3 +301,5 @@ public:
 
 ### [23.合并k个升序链表](https://leetcode.cn/problems/merge-k-sorted-lists/) 
 > 最小堆 分治
+
+### [833.字符串中的查找与替换](https://leetcode.cn/problems/find-and-replace-in-string/description/)
