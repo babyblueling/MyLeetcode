@@ -305,3 +305,5 @@ public:
 ### [833.字符串中的查找与替换](https://leetcode.cn/problems/find-and-replace-in-string/description/)
 
 ### [1444.切披萨的方案数](https://leetcode.cn/problems/number-of-ways-of-cutting-a-pizza/description/)
+
+### [1388.3n块披萨](https://leetcode.cn/problems/pizza-with-3n-slices/description/)
