@@ -5,6 +5,20 @@
 
 自己写的：
 ```c++
+vector<int> getNextArray(string str) {
+    if(str.size() < 2) return {-1};
+    vector<int> next(str.size());
+    next[0] = -1;
+    next[1] = 0;
+    int cn = 0, i = 2;
+    while(i < str.size()) {
+        if(str[i-1] == str[cn]) next[i++] = ++cn;
+        else if(cn > 0) cn = next[cn];
+        else next[i++] = 0;
+    }
+    return next;
+}
+
 int kmp(string str1, string str2) {
     int i = 0, j = 0;
     vector<int> nextarr = getNextArray(str2);
@@ -21,19 +35,6 @@ int kmp(string str1, string str2) {
     return j == str2.size() ? i - j : -1;
 }
 
-vector<int> getNextArray(string str) {
-    if(str.size() < 2) return {-1};
-    vector<int> next(str.size());
-    next[0] = -1;
-    next[1] = 0;
-    int cn = 0, i = 2;
-    while(i < str.size()) {
-        if(str[i-1] == str[cn]) next[i++] = ++cn;
-        else if(cn > 0) cn = next[cn];
-        else next[i++] = 0;
-    }
-    return next;
-}
 ```
 
 代码随想录中的kmp算法：
