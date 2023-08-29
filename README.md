@@ -309,3 +309,5 @@ public:
 ### [1388.3n块披萨](https://leetcode.cn/problems/pizza-with-3n-slices/description/)
 
 ### [57.插入区间](https://leetcode.cn/problems/insert-interval/description/)
+
+### [823.带因子的二叉树](https://leetcode.cn/problems/binary-trees-with-factors/description/) 灵神题解
